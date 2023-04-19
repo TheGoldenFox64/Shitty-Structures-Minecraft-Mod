@@ -13,10 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.shittystructures.item.FuckYouItem;
 import net.mcreator.shittystructures.ShittyStructuresMod;
 
 public class ShittyStructuresModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ShittyStructuresMod.MODID);
+	public static final RegistryObject<Item> FUCK_YOU = REGISTRY.register("fuck_you", () -> new FuckYouItem());
 	public static final RegistryObject<Item> LANDMINE = block(ShittyStructuresModBlocks.LANDMINE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

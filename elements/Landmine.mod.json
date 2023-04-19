@@ -137,9 +137,6 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
         "value": "Blocks.GRASS"
       },
       {
@@ -156,11 +153,35 @@
       },
       {
         "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.SAND#1"
+      },
+      {
+        "value": "Blocks.MOSS_BLOCK"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.WARPED_NYLIUM"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      },
+      {
+        "value": "Blocks.BASALT"
       }
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 1,
+    "frequencyOnChunk": 15,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 120
   }

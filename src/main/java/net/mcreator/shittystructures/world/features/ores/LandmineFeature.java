@@ -34,13 +34,20 @@ public class LandmineFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new LandmineFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("shitty_structures:landmine", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRASS_BLOCK.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.GRASS_BLOCK.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIRT_PATH.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.MYCELIUM.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIRT.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.PODZOL.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.COARSE_DIRT.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState())), 1));
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.COARSE_DIRT.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.SAND.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.RED_SAND.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.MOSS_BLOCK.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.END_STONE.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.NETHERRACK.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.WARPED_NYLIUM.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.CRIMSON_NYLIUM.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.BASALT.defaultBlockState()), ShittyStructuresModBlocks.LANDMINE.get().defaultBlockState())), 15));
 		PLACED_FEATURE = PlacementUtils.register("shitty_structures:landmine", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(120)), BiomeFilter.biome()));
 		return FEATURE;
