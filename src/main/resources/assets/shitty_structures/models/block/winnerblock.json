@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/winner",
+    "up": "shitty_structures:blocks/winner",
+    "north": "shitty_structures:blocks/winner",
+    "east": "shitty_structures:blocks/winner",
+    "south": "shitty_structures:blocks/winner",
+    "west": "shitty_structures:blocks/winner",
+    "particle": "shitty_structures:blocks/winner"
+  },
+  "render_type": "cutout"
+}

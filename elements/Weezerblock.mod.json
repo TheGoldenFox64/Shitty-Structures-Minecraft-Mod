@@ -1,0 +1,154 @@
+{
+  "_fv": 39,
+  "_type": "block",
+  "definition": {
+    "texture": "weezer",
+    "textureTop": "weezer",
+    "textureLeft": "weezer",
+    "textureFront": "weezer",
+    "textureRight": "weezer",
+    "textureBack": "weezer",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Weezer Block",
+    "specialInfo": [],
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "BUILDING_BLOCKS"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canRedstoneConnect": true,
+    "lightOpacity": 10,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 40,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 5.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "BLOCK",
+    "isNotColidable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "breakSound": {
+      "value": "CUSTOM:weezernoise"
+    },
+    "fallSound": {
+      "value": "CUSTOM:weezernoise"
+    },
+    "hitSound": {
+      "value": "CUSTOM:weezernoise"
+    },
+    "placeSound": {
+      "value": "CUSTOM:weezernoise"
+    },
+    "stepSound": {
+      "value": "CUSTOM:weezernoise"
+    },
+    "luminance": 5,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "WeezerblockOnBoneMealSuccess"
+    },
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRedstoneOn": {
+      "name": "WeezerblockRedstoneOn"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "Blocks.DEEPSLATE"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 64
+  }
+}

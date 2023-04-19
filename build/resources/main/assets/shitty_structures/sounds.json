@@ -1,0 +1,32 @@
+{
+  "winsound": {
+    "category": "block",
+    "subtitle": "subtitles.winsound",
+    "sounds": [
+      {
+        "name": "shitty_structures:win_sound_effect_no_copyright",
+        "stream": false
+      }
+    ]
+  },
+  "losesound": {
+    "category": "block",
+    "subtitle": "subtitles.losesound",
+    "sounds": [
+      {
+        "name": "shitty_structures:wet_fart_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "weezernoise": {
+    "category": "neutral",
+    "subtitle": "subtitles.weezernoise",
+    "sounds": [
+      {
+        "name": "shitty_structures:weezer_sound_effect_2",
+        "stream": false
+      }
+    ]
+  }
+}

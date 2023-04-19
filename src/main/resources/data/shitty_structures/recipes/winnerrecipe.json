@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "1": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "2": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "3": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "4": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "5": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "6": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "7": {
+      "item": "shitty_structures:quadruplenetherite"
+    },
+    "8": {
+      "item": "shitty_structures:quadruplenetherite"
+    }
+  },
+  "result": {
+    "item": "shitty_structures:winner",
+    "count": 1
+  }
+}

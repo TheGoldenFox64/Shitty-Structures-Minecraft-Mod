@@ -9,6 +9,9 @@ displayName="Shitty Structures"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="kungf, MCreator"
+description='''
+Adds a bunch of thing to make your minecraft experience bettererererererererererer
+'''
 
 [[dependencies.shitty_structures]]
     modId="minecraft"

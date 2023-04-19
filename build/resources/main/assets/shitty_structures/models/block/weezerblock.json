@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/weezer",
+    "up": "shitty_structures:blocks/weezer",
+    "north": "shitty_structures:blocks/weezer",
+    "east": "shitty_structures:blocks/weezer",
+    "south": "shitty_structures:blocks/weezer",
+    "west": "shitty_structures:blocks/weezer",
+    "particle": "shitty_structures:blocks/weezer"
+  },
+  "render_type": "solid"
+}

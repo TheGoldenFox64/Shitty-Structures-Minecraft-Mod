@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/triplenetherite",
+    "up": "shitty_structures:blocks/triplenetherite",
+    "north": "shitty_structures:blocks/triplenetherite",
+    "east": "shitty_structures:blocks/triplenetherite",
+    "south": "shitty_structures:blocks/triplenetherite",
+    "west": "shitty_structures:blocks/triplenetherite",
+    "particle": "shitty_structures:blocks/triplenetherite"
+  },
+  "render_type": "solid"
+}

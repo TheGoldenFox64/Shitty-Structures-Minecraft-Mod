@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "1": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "2": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "3": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "4": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "5": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "6": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "7": {
+      "item": "shitty_structures:doublenetherite"
+    },
+    "8": {
+      "item": "shitty_structures:doublenetherite"
+    }
+  },
+  "result": {
+    "item": "shitty_structures:triplenetherite",
+    "count": 1
+  }
+}

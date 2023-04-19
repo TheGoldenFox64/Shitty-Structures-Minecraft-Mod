@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/quadruplenetherite",
+    "up": "shitty_structures:blocks/quadruplenetherite",
+    "north": "shitty_structures:blocks/quadruplenetherite",
+    "east": "shitty_structures:blocks/quadruplenetherite",
+    "south": "shitty_structures:blocks/quadruplenetherite",
+    "west": "shitty_structures:blocks/quadruplenetherite",
+    "particle": "shitty_structures:blocks/quadruplenetherite"
+  },
+  "render_type": "solid"
+}

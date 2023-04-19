@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.shittystructures.init.ShittyStructuresModSounds;
 import net.mcreator.shittystructures.init.ShittyStructuresModItems;
 import net.mcreator.shittystructures.init.ShittyStructuresModFeatures;
 import net.mcreator.shittystructures.init.ShittyStructuresModBlocks;
@@ -51,7 +52,7 @@ public class ShittyStructuresMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ShittyStructuresModSounds.REGISTRY.register(bus);
 		ShittyStructuresModBlocks.REGISTRY.register(bus);
 		ShittyStructuresModItems.REGISTRY.register(bus);
 

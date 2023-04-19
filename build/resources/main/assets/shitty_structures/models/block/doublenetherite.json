@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/doublenetheriteside",
+    "up": "shitty_structures:blocks/doublenetheriteside",
+    "north": "shitty_structures:blocks/doublenetheriteside",
+    "east": "shitty_structures:blocks/doublenetheriteside",
+    "south": "shitty_structures:blocks/doublenetheriteside",
+    "west": "shitty_structures:blocks/doublenetheriteside",
+    "particle": "shitty_structures:blocks/doublenetheriteside"
+  },
+  "render_type": "solid"
+}
