@@ -67,14 +67,28 @@
       }
     },
     {
-      "name": "Fuckyouloottable",
+      "name": "Shitloot",
       "type": "loottable",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fuckyouloottable",
+      "registry_name": "shitloot",
       "metadata": {
         "files": [
-          "src/main/resources/data/shitty_structures/loot_tables/chests/fuckyouloottable.json"
+          "src/main/resources/data/shitty_structures/loot_tables/chests/shitloot.json"
+        ]
+      }
+    },
+    {
+      "name": "Fuckchest",
+      "type": "structure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuckchest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/world/features/FuckchestFeature.java",
+          "src/main/resources/data/shitty_structures/forge/biome_modifier/fuckchest_biome_modifier.json"
         ]
       }
     }

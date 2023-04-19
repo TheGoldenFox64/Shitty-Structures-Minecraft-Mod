@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "shitty_structures:fuckchest",
+  "step": "surface_structures"
+}
