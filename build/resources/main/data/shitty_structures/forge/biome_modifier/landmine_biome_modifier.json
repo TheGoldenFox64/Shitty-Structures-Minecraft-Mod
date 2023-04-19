@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "shitty_structures:landmine",
+  "step": "underground_ores"
+}

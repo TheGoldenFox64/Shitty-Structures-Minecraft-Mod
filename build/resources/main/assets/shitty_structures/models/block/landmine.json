@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/dirt",
+    "up": "shitty_structures:blocks/grass_block_top",
+    "north": "shitty_structures:blocks/grass_block_side",
+    "east": "shitty_structures:blocks/grass_block_side",
+    "south": "shitty_structures:blocks/grass_block_side",
+    "west": "shitty_structures:blocks/grass_block_side",
+    "particle": "shitty_structures:blocks/dirt"
+  },
+  "render_type": "solid"
+}
