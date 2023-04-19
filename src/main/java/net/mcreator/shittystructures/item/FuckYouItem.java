@@ -14,7 +14,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.shittystructures.procedures.LandmineEntityWalksOnTheBlockProcedure;
+import net.mcreator.shittystructures.procedures.FuckYouRightclickedProcedure;
 
 public class FuckYouItem extends Item {
 	public FuckYouItem() {
@@ -40,7 +40,7 @@ public class FuckYouItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		LandmineEntityWalksOnTheBlockProcedure.execute(world, x, y, z, entity);
+		FuckYouRightclickedProcedure.execute(world, x, y, z, entity);
 		return ar;
 	}
 }

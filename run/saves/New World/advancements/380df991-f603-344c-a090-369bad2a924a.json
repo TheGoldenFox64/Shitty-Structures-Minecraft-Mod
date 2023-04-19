@@ -1,14 +1,7 @@
 {
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2023-04-19 08:19:13 -0700"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mangrove_swamp": "2023-04-19 08:16:46 -0700",
-      "minecraft:savanna": "2023-04-19 08:16:53 -0700"
+      "minecraft:plains": "2023-04-19 10:39:51 -0700"
     },
     "done": false
   },

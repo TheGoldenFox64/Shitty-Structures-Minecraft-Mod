@@ -3,6 +3,7 @@
     {
       "name": "LandmineEntityWalksOnTheBlock",
       "type": "procedure",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "landmine_entity_walks_on_the_block",
@@ -89,6 +90,41 @@
         "files": [
           "src/main/java/net/mcreator/shittystructures/world/features/FuckchestFeature.java",
           "src/main/resources/data/shitty_structures/forge/biome_modifier/fuckchest_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "FuckYouRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_you_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/FuckYouRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
