@@ -73,7 +73,6 @@
     {
       "name": "Shitloot",
       "type": "loottable",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shitloot",
@@ -460,6 +459,224 @@
         ]
       },
       "path": "~/weezer"
+    },
+    {
+      "name": "Minosprime",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minosprime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/entity/MinosprimeEntity.java",
+          "src/main/resources/assets/shitty_structures/models/item/minosprime_spawn_egg.json",
+          "src/main/java/net/mcreator/shittystructures/client/renderer/MinosprimeRenderer.java"
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "Fleshprison",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fleshprison",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/FleshprisonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "Marksman",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marksman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/marksman.json",
+          "src/main/java/net/mcreator/shittystructures/item/MarksmanItem.java",
+          "src/main/java/net/mcreator/shittystructures/entity/MarksmanEntity.java"
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/bullet.json",
+          "src/main/java/net/mcreator/shittystructures/item/BulletItem.java"
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "CoinEntityDies",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/CoinEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "CoinEntityFalls",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_entity_falls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/CoinEntityFallsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "Coin",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/entity/CoinEntity.java",
+          "src/main/resources/assets/shitty_structures/models/item/coin_spawn_egg.json",
+          "src/main/java/net/mcreator/shittystructures/client/renderer/CoinRenderer.java"
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "RevolverEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/RevolverEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "Revolver",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/revolver.json",
+          "src/main/java/net/mcreator/shittystructures/item/RevolverItem.java"
+        ]
+      },
+      "path": "~/Ultrakill"
+    },
+    {
+      "name": "RevolverEntityRightClick",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_entity_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/RevolverEntityRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ultrakill"
     }
   ],
   "variable_elements": [],
@@ -487,20 +704,63 @@
       ],
       "category": "neutral",
       "subtitle": "she buddy on my holly till im weezin"
+    },
+    {
+      "name": "minosdeath",
+      "files": [
+        "pinos_death_scream"
+      ],
+      "category": "voice",
+      "subtitle": "    WAAAAAAAAAAAAAAGGGGGGGGGHHHHHHHHH!\" (Dying scream)"
+    },
+    {
+      "name": "minosjudgement",
+      "files": [
+        "mp_judgement2"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "shoot",
+      "files": [
+        "shoot"
+      ],
+      "category": "player",
+      "subtitle": "pew pew"
+    },
+    {
+      "name": "coin",
+      "files": [
+        "coin"
+      ],
+      "category": "player",
+      "subtitle": "ka-ching"
     }
   ],
   "language_map": {
     "en_us": {
-      "block.shitty_structures.landmine": "Grass Block",
       "subtitles.weezernoise": "she buddy on my holly till im weezin",
-      "subtitles.winsound": "Winner!",
+      "item.shitty_structures.revolver": "Revolver",
+      "item.shitty_structures.bullet": "Bullet",
+      "item.shitty_structures.coin_spawn_egg": "Coin Spawn Egg",
       "block.shitty_structures.quadruplenetherite": "Quadruple Netherite Block",
       "block.shitty_structures.winnerblock": "Winner block",
-      "item.shitty_structures.fuck_you": "Fuck You",
+      "subtitles.minosjudgement": "",
+      "entity.shitty_structures.coin": "Coin",
       "subtitles.losesound": "shidding and fardinggg",
       "block.shitty_structures.weezerblock": "Weezer Block",
+      "item.shitty_structures.marksman": "Marksman",
       "block.shitty_structures.triplenetherite": "Triple Netherite Block",
+      "item.shitty_structures.minosprime_spawn_egg": "Minos Prime Spawn Egg",
       "item.shitty_structures.winner": "Winner",
+      "block.shitty_structures.landmine": "Grass Block",
+      "subtitles.winsound": "Winner!",
+      "subtitles.coin": "ka-ching",
+      "subtitles.minosdeath": "    WAAAAAAAAAAAAAAGGGGGGGGGHHHHHHHHH!\" (Dying scream)",
+      "item.shitty_structures.fuck_you": "Fuck You",
+      "subtitles.shoot": "pew pew",
+      "entity.shitty_structures.minosprime": "Minos Prime",
       "block.shitty_structures.doublenetherite": "Double Netherite Block"
     }
   },
@@ -529,6 +789,10 @@
       },
       {
         "name": "weezer",
+        "children": []
+      },
+      {
+        "name": "Ultrakill",
         "children": []
       }
     ]

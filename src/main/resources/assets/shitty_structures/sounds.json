@@ -28,5 +28,44 @@
         "stream": false
       }
     ]
+  },
+  "minosdeath": {
+    "category": "voice",
+    "subtitle": "subtitles.minosdeath",
+    "sounds": [
+      {
+        "name": "shitty_structures:pinos_death_scream",
+        "stream": false
+      }
+    ]
+  },
+  "minosjudgement": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "shitty_structures:mp_judgement2",
+        "stream": false
+      }
+    ]
+  },
+  "shoot": {
+    "category": "player",
+    "subtitle": "subtitles.shoot",
+    "sounds": [
+      {
+        "name": "shitty_structures:shoot",
+        "stream": false
+      }
+    ]
+  },
+  "coin": {
+    "category": "player",
+    "subtitle": "subtitles.coin",
+    "sounds": [
+      {
+        "name": "shitty_structures:coin",
+        "stream": false
+      }
+    ]
   }
 }

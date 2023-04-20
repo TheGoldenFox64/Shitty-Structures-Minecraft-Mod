@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.shittystructures.init.ShittyStructuresModSounds;
 import net.mcreator.shittystructures.init.ShittyStructuresModItems;
 import net.mcreator.shittystructures.init.ShittyStructuresModFeatures;
+import net.mcreator.shittystructures.init.ShittyStructuresModEntities;
 import net.mcreator.shittystructures.init.ShittyStructuresModBlocks;
 
 import java.util.function.Supplier;
@@ -55,6 +56,7 @@ public class ShittyStructuresMod {
 		ShittyStructuresModSounds.REGISTRY.register(bus);
 		ShittyStructuresModBlocks.REGISTRY.register(bus);
 		ShittyStructuresModItems.REGISTRY.register(bus);
+		ShittyStructuresModEntities.REGISTRY.register(bus);
 
 		ShittyStructuresModFeatures.REGISTRY.register(bus);
 

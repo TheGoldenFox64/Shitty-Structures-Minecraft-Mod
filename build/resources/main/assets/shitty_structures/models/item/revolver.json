@@ -1,0 +1,7 @@
+{
+  "parent": "shitty_structures:custom/marksman",
+  "textures": {
+    "0": "shitty_structures:blocks/coinshooter",
+    "particle": "shitty_structures:items/coinshooter"
+  }
+}
