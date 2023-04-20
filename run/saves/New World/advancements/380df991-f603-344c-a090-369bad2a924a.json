@@ -1,42 +1,51 @@
 {
-  "minecraft:recipes/redstone/dispenser": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_bow": "2023-04-20 06:57:03 -0700"
+      "in_water": "2023-04-20 14:22:58 -0700"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "killed_something": "2023-04-20 06:59:00 -0700"
+      "in_water": "2023-04-20 14:22:58 -0700"
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "minecraft:creeper": "2023-04-20 07:04:37 -0700"
+      "in_water": "2023-04-20 14:22:58 -0700"
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "minecraft:creeper": "2023-04-20 07:04:37 -0700"
+      "in_water": "2023-04-20 14:22:58 -0700"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "shot_arrow": "2023-04-20 07:14:58 -0700"
+      "in_water": "2023-04-20 14:22:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-04-20 14:22:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-04-20 14:22:58 -0700"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:stony_shore": "2023-04-20 07:18:20 -0700",
-      "minecraft:grove": "2023-04-20 06:56:22 -0700",
-      "minecraft:forest": "2023-04-20 06:59:14 -0700",
-      "minecraft:ocean": "2023-04-20 06:59:18 -0700",
-      "minecraft:frozen_peaks": "2023-04-20 06:57:22 -0700",
-      "minecraft:plains": "2023-04-20 06:59:20 -0700"
+      "minecraft:wooded_badlands": "2023-04-20 14:21:03 -0700",
+      "minecraft:river": "2023-04-20 14:22:58 -0700",
+      "minecraft:desert": "2023-04-20 14:20:40 -0700"
     },
     "done": false
   },

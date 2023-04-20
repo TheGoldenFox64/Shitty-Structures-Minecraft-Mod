@@ -34,6 +34,7 @@ import net.mcreator.shittystructures.init.ShittyStructuresModItems;
 import net.mcreator.shittystructures.init.ShittyStructuresModFeatures;
 import net.mcreator.shittystructures.init.ShittyStructuresModEntities;
 import net.mcreator.shittystructures.init.ShittyStructuresModBlocks;
+import net.mcreator.shittystructures.init.ShittyStructuresModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -60,6 +61,7 @@ public class ShittyStructuresMod {
 
 		ShittyStructuresModFeatures.REGISTRY.register(bus);
 
+		ShittyStructuresModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

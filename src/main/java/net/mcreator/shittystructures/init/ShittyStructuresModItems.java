@@ -37,6 +37,7 @@ public class ShittyStructuresModItems {
 	public static final RegistryObject<Item> BULLET = REGISTRY.register("bullet", () -> new BulletItem());
 	public static final RegistryObject<Item> COIN_SPAWN_EGG = REGISTRY.register("coin_spawn_egg", () -> new ForgeSpawnEggItem(ShittyStructuresModEntities.COIN, -4685305, -1576176, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> REVOLVER = REGISTRY.register("revolver", () -> new RevolverItem());
+	public static final RegistryObject<Item> WOLFBLOCK = block(ShittyStructuresModBlocks.WOLFBLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

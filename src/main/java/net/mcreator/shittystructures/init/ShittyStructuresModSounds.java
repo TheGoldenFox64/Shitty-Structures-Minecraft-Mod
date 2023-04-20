@@ -22,4 +22,5 @@ public class ShittyStructuresModSounds {
 	public static final RegistryObject<SoundEvent> MINOSJUDGEMENT = REGISTRY.register("minosjudgement", () -> new SoundEvent(new ResourceLocation("shitty_structures", "minosjudgement")));
 	public static final RegistryObject<SoundEvent> SHOOT = REGISTRY.register("shoot", () -> new SoundEvent(new ResourceLocation("shitty_structures", "shoot")));
 	public static final RegistryObject<SoundEvent> COIN = REGISTRY.register("coin", () -> new SoundEvent(new ResourceLocation("shitty_structures", "coin")));
+	public static final RegistryObject<SoundEvent> DOGSOUND = REGISTRY.register("dogsound", () -> new SoundEvent(new ResourceLocation("shitty_structures", "dogsound")));
 }

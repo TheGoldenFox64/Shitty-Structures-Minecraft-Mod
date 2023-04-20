@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shitty_structures:blocks/wolfblock",
+    "up": "shitty_structures:blocks/wolfblock",
+    "north": "shitty_structures:blocks/wolfblock",
+    "east": "shitty_structures:blocks/wolfblock",
+    "south": "shitty_structures:blocks/wolfblock",
+    "west": "shitty_structures:blocks/wolfblock",
+    "particle": "shitty_structures:blocks/wolfblock"
+  },
+  "render_type": "solid"
+}

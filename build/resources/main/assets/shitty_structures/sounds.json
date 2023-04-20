@@ -67,5 +67,15 @@
         "stream": false
       }
     ]
+  },
+  "dogsound": {
+    "category": "music",
+    "subtitle": "subtitles.dogsound",
+    "sounds": [
+      {
+        "name": "shitty_structures:undertale-dogsong-extended-1-hou",
+        "stream": true
+      }
+    ]
   }
 }

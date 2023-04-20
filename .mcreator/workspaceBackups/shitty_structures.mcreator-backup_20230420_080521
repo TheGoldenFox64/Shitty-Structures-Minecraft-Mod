@@ -1,0 +1,556 @@
+{
+  "mod_elements": [
+    {
+      "name": "LandmineEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landmine_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/LandmineEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/landmine"
+    },
+    {
+      "name": "Landmine",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landmine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/blockstates/landmine.json",
+          "src/main/resources/assets/shitty_structures/models/item/landmine.json",
+          "src/main/resources/assets/shitty_structures/models/block/landmine.json",
+          "src/main/resources/data/shitty_structures/forge/biome_modifier/landmine_biome_modifier.json",
+          "src/main/java/net/mcreator/shittystructures/block/LandmineBlock.java",
+          "src/main/java/net/mcreator/shittystructures/world/features/ores/LandmineFeature.java"
+        ]
+      },
+      "path": "~/landmine"
+    },
+    {
+      "name": "FuckYou",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_you",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/fuck_you.json",
+          "src/main/java/net/mcreator/shittystructures/item/FuckYouItem.java"
+        ]
+      },
+      "path": "~/fuck you item"
+    },
+    {
+      "name": "Shitloot",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/loot_tables/chests/shitloot.json"
+        ]
+      },
+      "path": "~/fuck chest"
+    },
+    {
+      "name": "Fuckchest",
+      "type": "structure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuckchest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/world/features/FuckchestFeature.java",
+          "src/main/resources/data/shitty_structures/forge/biome_modifier/fuckchest_biome_modifier.json"
+        ]
+      },
+      "path": "~/fuck chest"
+    },
+    {
+      "name": "FuckYouRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_you_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/FuckYouRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fuck you item"
+    },
+    {
+      "name": "Fuckdiamond",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuckdiamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/fuckdiamond.json"
+        ]
+      },
+      "path": "~/Fuck You Recipies"
+    },
+    {
+      "name": "Fuckiron",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuckiron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/fuckiron.json"
+        ]
+      },
+      "path": "~/Fuck You Recipies"
+    },
+    {
+      "name": "Fucknetherite",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fucknetherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/fucknetherite.json"
+        ]
+      },
+      "path": "~/Fuck You Recipies"
+    },
+    {
+      "name": "Doublenetherite",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doublenetherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/doublenetherite.json",
+          "src/main/resources/assets/shitty_structures/models/block/doublenetherite.json",
+          "src/main/java/net/mcreator/shittystructures/block/DoublenetheriteBlock.java",
+          "src/main/resources/assets/shitty_structures/blockstates/doublenetherite.json"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Superbeacon",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superbeacon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/superbeacon.json"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Triplenetherite",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triplenetherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/triplenetherite.json",
+          "src/main/resources/assets/shitty_structures/models/block/triplenetherite.json",
+          "src/main/resources/assets/shitty_structures/blockstates/triplenetherite.json",
+          "src/main/java/net/mcreator/shittystructures/block/TriplenetheriteBlock.java"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Triplenetheriterecipie",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triplenetheriterecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/triplenetheriterecipie.json"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Quadruplenetherite",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadruplenetherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/block/quadruplenetherite.json",
+          "src/main/java/net/mcreator/shittystructures/block/QuadruplenetheriteBlock.java",
+          "src/main/resources/assets/shitty_structures/models/item/quadruplenetherite.json",
+          "src/main/resources/assets/shitty_structures/blockstates/quadruplenetherite.json"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Quadruplenetheriterecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadruplenetheriterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/quadruplenetheriterecipe.json"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Winner",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/item/winner.json",
+          "src/main/java/net/mcreator/shittystructures/item/WinnerItem.java"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Winnerrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winnerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shitty_structures/recipes/winnerrecipe.json"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "WinnerblockRedstoneOn",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winnerblock_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/WinnerblockRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "WinnerblockRedstoneOff",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winnerblock_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/WinnerblockRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "Winnerblock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winnerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/models/block/winnerblock.json",
+          "src/main/resources/assets/shitty_structures/models/item/winnerblock.json",
+          "src/main/resources/assets/shitty_structures/blockstates/winnerblock.json",
+          "src/main/java/net/mcreator/shittystructures/block/WinnerblockBlock.java"
+        ]
+      },
+      "path": "~/netherite"
+    },
+    {
+      "name": "WeezerblockOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weezerblock_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/WeezerblockOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weezer"
+    },
+    {
+      "name": "WeezerblockRedstoneOn",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weezerblock_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shittystructures/procedures/WeezerblockRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weezer"
+    },
+    {
+      "name": "Weezerblock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weezerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shitty_structures/blockstates/weezerblock.json",
+          "src/main/resources/assets/shitty_structures/models/item/weezerblock.json",
+          "src/main/java/net/mcreator/shittystructures/block/WeezerblockBlock.java",
+          "src/main/resources/assets/shitty_structures/models/block/weezerblock.json"
+        ]
+      },
+      "path": "~/weezer"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "winsound",
+      "files": [
+        "win_sound_effect_no_copyright"
+      ],
+      "category": "block",
+      "subtitle": "Winner!"
+    },
+    {
+      "name": "losesound",
+      "files": [
+        "wet_fart_sound_effect"
+      ],
+      "category": "block",
+      "subtitle": "shidding and fardinggg"
+    },
+    {
+      "name": "weezernoise",
+      "files": [
+        "weezer_sound_effect_2"
+      ],
+      "category": "neutral",
+      "subtitle": "she buddy on my holly till im weezin"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.shitty_structures.landmine": "Grass Block",
+      "subtitles.weezernoise": "she buddy on my holly till im weezin",
+      "subtitles.winsound": "Winner!",
+      "block.shitty_structures.quadruplenetherite": "Quadruple Netherite Block",
+      "block.shitty_structures.winnerblock": "Winner block",
+      "item.shitty_structures.fuck_you": "Fuck You",
+      "subtitles.losesound": "shidding and fardinggg",
+      "block.shitty_structures.weezerblock": "Weezer Block",
+      "block.shitty_structures.triplenetherite": "Triple Netherite Block",
+      "item.shitty_structures.winner": "Winner",
+      "block.shitty_structures.doublenetherite": "Double Netherite Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Fuck You Recipies",
+        "children": []
+      },
+      {
+        "name": "netherite",
+        "children": []
+      },
+      {
+        "name": "landmine",
+        "children": []
+      },
+      {
+        "name": "fuck you item",
+        "children": []
+      },
+      {
+        "name": "fuck chest",
+        "children": []
+      },
+      {
+        "name": "weezer",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "shitty_structures",
+    "modName": "Shitty Structures",
+    "version": "1.0.0",
+    "description": "Adds a bunch of thing to make your minecraft experience bettererererererererererer",
+    "author": "kungf, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.shittystructures",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,140 @@
+{
+  "_fv": 39,
+  "_type": "biome",
+  "definition": {
+    "name": "Wolf Land",
+    "groundBlock": {
+      "value": "CUSTOM:Wolfblock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Weezerblock"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:dogsound"
+    },
+    "additionsSound": {
+      "value": "entity.wolf.ambient"
+    },
+    "music": {
+      "value": "CUSTOM:dogsound"
+    },
+    "moodSound": {
+      "value": "entity.wolf.ambient"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "SNEEZE"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": true,
+    "spawnBiomeNether": true,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 3,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 2,
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 25,
+    "treeStem": {
+      "value": "CUSTOM:Wolfblock"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Wolfblock"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnSwampHut": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "WARM",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "NETHER",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 4,
+        "maxGroup": 16,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.shittystructures.block.WolfblockBlock;
 import net.mcreator.shittystructures.block.WinnerblockBlock;
 import net.mcreator.shittystructures.block.WeezerblockBlock;
 import net.mcreator.shittystructures.block.TriplenetheriteBlock;
@@ -26,4 +27,5 @@ public class ShittyStructuresModBlocks {
 	public static final RegistryObject<Block> QUADRUPLENETHERITE = REGISTRY.register("quadruplenetherite", () -> new QuadruplenetheriteBlock());
 	public static final RegistryObject<Block> WINNERBLOCK = REGISTRY.register("winnerblock", () -> new WinnerblockBlock());
 	public static final RegistryObject<Block> WEEZERBLOCK = REGISTRY.register("weezerblock", () -> new WeezerblockBlock());
+	public static final RegistryObject<Block> WOLFBLOCK = REGISTRY.register("wolfblock", () -> new WolfblockBlock());
 }
